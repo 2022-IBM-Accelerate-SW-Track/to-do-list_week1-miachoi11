@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import AddTodo from '../component/AddTodo';
+import todos from '../component/todos';
+import './Home.css';
   
 class Home extends Component {
   // A default state of this component with an empty list of todos.
@@ -27,7 +30,7 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <h1>Todo's </h1>
+        <h1>To-Do List</h1>
         <p> Replace this</p>
       </div>
     );
